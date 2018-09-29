@@ -18,4 +18,4 @@ You can also input new data into the application and create a new route, frequen
 ### Links
 
 
-[Train Scheduler Application]( https://kalieshapickering.github.io/train-scheduler/.)
+[Train Scheduler Application]( https://kalieshapickering.github.io/train-scheduler/)
