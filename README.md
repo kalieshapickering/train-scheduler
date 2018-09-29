@@ -1,4 +1,4 @@
-# train-scheduler
+# Train Scheduler
 
 
 A HTML/CSS Browser train scheduler application that uses JavaScript to compose the logic and jQuery for DOM manipulation database initialized through firebase.
