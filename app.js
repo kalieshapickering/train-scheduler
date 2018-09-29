@@ -50,9 +50,9 @@
       console.log(trainTime);
 
       var nextTrain = moment().diff(trainTime, "minutes");
-      var minutesAway = nextTrain - frequency;
+      var minutesAway = nextTrain % frequency;
     var timeToNextTrain = frequency - minutesAway;
-    var nextArrival = moment().add(timeToNextTrain, "minutes").format("hh:mm");
+    var nextArrival = moment().add(timeToNextTrain, "minutes")
 
       var newRow = $("<tr>").append(
           $("<td>").text(addTrain),
